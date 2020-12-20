@@ -1,0 +1,177 @@
+:root {
+  --bodyBg: #f0f4f8;
+  --menuBg: #334d68;
+  --progressBar: #54d1db;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background: var(--bodyBg);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+
+.ui.text.fluid.container {
+  max-width: 100% !important;
+}
+
+
+.ui.inverted.vertical.center.aligned.segment {
+  max-width:100% !important;
+}
+
+
+.maincontent {
+  width:100% !important;
+}
+
+#menu {
+  background-color: #09305a !important;
+  background: var(--menuBg);
+  font-family: 'Open Sans', sans-serif !important;
+  border-radius: 0px !important;
+}
+
+
+.ui.divided.items {
+  margin-left: 15% !important;
+  float: center !important;
+  width: 70% !important;
+}
+
+#logincontainer {
+  width:50% !important;
+}
+
+#signupcontainer {
+  width:50% !important;  
+}
+
+.ui.form {
+}
+
+
+.content {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+
+.ui.tiny.image {
+  height: 75px !important;
+}
+
+#logo {
+  background-color: #09305a !important;
+  padding:0px 27px 0px 0px !important;
+}
+
+#leftdiv {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 50% !important;
+  display:block !important;
+  float: left !important;
+}
+
+.ui.header.jumbo {
+  margin-left: 20% !important;
+}
+
+.ui.centered.three.cards {
+  width: 70% !important;
+}
+
+.ui.centered.four.cards {
+  width: 70% !important;
+
+}
+
+.ui.stackable.five.cards {
+  width: 80% !important;
+}
+
+.ui.huge.button {
+  margin-left: 20% !important;
+  
+}
+
+#rightdiv {
+  height:710px !important;
+  background-image: url("../static/HelpImages/Recommender\ 2.PNG");  
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+
+.header.item {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 200 !important;
+}
+
+
+/* Overrides default styled accordion styles (too much bottom padding) */
+.ui.styled.accordion .content {
+  margin: 0;
+  padding: 0.5em 1em 0.75em !important;
+}
+
+.ui.text.container {
+  max-width: none ;
+}
+
+.helptext {
+  width: 60% !important;
+}
+
+#highchart {
+  padding-right:60px !important;
+  padding-left:60px !important;
+}
+
+#abouttext {
+  width: 70% !important;
+  font-size: 1.2em !important;
+}
+
+.item.footer {
+  color: white !important;
+}
+
+.highcharts.container {
+  padding-right:30px !important;
+}
+
+.ui.vertical.segment.footer {
+  color:white !important;
+  background-color: #09305a !important;
+}
+
+
+.button {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.ui.table {
+  width: 65% !important;
+}
+
+.homepara {
+  font-size: 1.3em !important;
+}
+
+#stockinfocontainer {
+  width: 70% !important;
+}
+
+.ui.divided.two.column.grid {
+  width: 70% !important;
+}
+
+#testingdiv {
+}
+
+.ui.green.left.aligned.header {
+  margin-top: -7px !important;
+}
